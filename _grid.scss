@@ -118,8 +118,7 @@
 	}
 
 
-
-	@include respond-to('lg') {
+	@include breakpoint('lg') {
 		&.break-lg {
 			> div[class^="grid-"] {
 				width: 100%;
@@ -127,7 +126,7 @@
 		}
 	}
 
-	@include respond-to('mdl') {
+	@include breakpoint('mdl') {
 		&.break-mdl {
 			> div[class^="grid-"] {
 				width: 100%;
@@ -135,7 +134,7 @@
 		}
 	}
 
-	@include respond-to('md') {
+	@include breakpoint('md') {
 		&.break-md {
 			> div[class^="grid-"] {
 				width: 100%;
@@ -143,7 +142,7 @@
 		}
 	}
 
-	@include respond-to('sml') {
+	@include breakpoint('sml') {
 		&.break-sml {
 			> div[class^="grid-"] {
 				width: 100%;
@@ -151,11 +150,10 @@
 		}
 	}
 
-	@include respond-to('sm') {
+	@include breakpoint('sm') {
 		&.break-sm {
-			div[class^="grid-"] {
+			> div[class^="grid-"] {
 				width: 100%;
-				// padding: 0;
 			}
 		}
 	}
