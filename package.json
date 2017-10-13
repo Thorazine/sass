@@ -11,13 +11,13 @@
     "url": "git+https://github.com/Thorazine/sass.git"
   },
   "keywords": [
-    "Grid",
+    "boilerplate",
     "SASS"
   ],
   "author": "Matthijs Openneer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Thorazine/grid/issues"
+    "url": "https://github.com/Thorazine/sass/issues"
   },
-  "homepage": "https://github.com/Thorazine/grid#readme"
+  "homepage": "https://github.com/Thorazine/sass#readme"
 }
