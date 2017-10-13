@@ -1,0 +1,50 @@
+body {
+	background-color: $color-bg;
+	font-family: $font-family;
+}
+
+h1 {
+	color: $color-font;
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-family: $font-family;
+}
+
+h2 {
+	color: $color-font;
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-family: $font-family;
+}
+
+body, p {
+	font-size: $font-size;
+	font-family: $font-family;
+	line-height: $font-line-height;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+i, em {
+	font-style: italic;
+}
+
+a {
+	font-family: $font-family;
+
+	:hover {
+
+	}
+
+	:active {
+
+	}
+}

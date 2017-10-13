@@ -1,0 +1,23 @@
+/**
+ * Breakpoint
+ * @param {string} $name - Name of the breakpoint used in $breakpoints
+ */
+@mixin breakpoint($name) {
+	@if map-has-key($breakpoints, $name) {
+		@media #{map-get($breakpoints, $name)} {
+			@content;
+		}
+	}
+}
+
+/*
+// Breakpoint sizes as defined in variables
+$breakpoints: (
+	'sm': 			'(max-width: 415px)',
+	'sml':			'(max-width: 767px) and (max-height: 415px)',
+	'md': 			'(max-width: 768px)',
+	'mdl': 			'(max-width: 1024px) and (max-height: 768px)',
+	'lg': 			'(max-width: 1280px)',
+	'xl': 			'(min-width: 1280px)',
+);
+*/

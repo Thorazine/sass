@@ -1,0 +1,23 @@
+{
+  "name": "thorazine-sass",
+  "version": "1.0.0",
+  "description": "Yet another SASS boilerplate. But this one is mine",
+  "main": "main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thorazine/sass.git"
+  },
+  "keywords": [
+    "Grid",
+    "SASS"
+  ],
+  "author": "Matthijs Openneer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thorazine/grid/issues"
+  },
+  "homepage": "https://github.com/Thorazine/grid#readme"
+}

@@ -1,0 +1,20 @@
+// colors
+$color-bg: #FFF !default;
+$color-font: #000 !default;
+
+// font
+$font-size: 14px !default;
+$font-family: Helvetica !default;
+$font-line-height: 140% !default;
+
+// grid
+$grid-sizes: (0, 1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100) !default;
+
+// breakpoints
+$breakpoints: (
+	'sm': 			'(max-width: 415px)',
+	'sml':			'(max-width: 767px) and (max-height: 415px)',
+	'md': 			'(max-width: 768px)',
+	'mdl': 			'(max-width: 1024px) and (max-height: 768px)',
+	'lg': 			'(min-width: 1025px)',
+) !default;
